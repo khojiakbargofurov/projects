@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+      background-color: cyan;
+}
+
+.card{
+    margin: 0 auto;
+    display: flex;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+img{
+    width: 300px;
+    object-fit: cover;
+}
+
+.info{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+
+.price_div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    padding: 10px;
+}
